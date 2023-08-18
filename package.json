@@ -1,0 +1,17 @@
+{
+  "name": "pulse",
+  "version": "1.0.0",
+  "description": "A multi-part blog application with a backend and two frontends.",
+  "author": "Brandon Young",
+  "license": "MIT",
+  "scripts": {
+    
+  },
+  "workspaces": {
+    "packages": ["backend", "frontend1", "frontend2"]
+  },
+  "dependencies": {
+    "express-generator": "^4.16.1"
+  }
+}
+
